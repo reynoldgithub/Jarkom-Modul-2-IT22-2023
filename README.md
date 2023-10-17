@@ -375,7 +375,7 @@ service apache2 restart
 
 - Add rule to apache conf
 
-```bash
+```apacheconf
 # /etc/apache2/site-available/abaimanyu.it22.com
 ...
     ServerAlias 192.244.2.6
@@ -383,6 +383,24 @@ service apache2 restart
 ```
 
 - Restart apache2
+```bash
+service apache2 restart
+```
+
+## Nomer 20
+>
+
+- Add rule `.htaccess`
+```bash
+# /var/www/parikesit.abimanyu.it22.com
+RewriteEngine On
+RewriteRule ^/public/image.*abimanyu.* /public/image/amibanyu.jpg [L,R=301]
+```
+- Enable mod rewrite
+```bash
+a2enmod rewrite
+```
+- Restart apache
 ```bash
 service apache2 restart
 ```
