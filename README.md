@@ -8,6 +8,27 @@ Pada modul 3 ini kami diberikan 1-20 soal cerita yang bersambung untuk diselesai
 ## Soal 1
 Yudhistira akan digunakan sebagai DNS Master, Werkudara sebagai DNS Slave, Arjuna merupakan Load Balancer yang terdiri dari beberapa Web Server yaitu Prabakusuma, Abimanyu, dan Wisanggeni. Buatlah topologi dengan pembagian sebagai berikut. _pada modul ini kami diberikan topologi no 2_
 
+### NOTE:
+<br>
+
+**Client:** 
+<br>
+Sadewa & Nakula
+
+**DNS Master:**
+<br>
+Yudhistira
+<br>
+
+**DNS Slave (Werkudara Load Balancer):** 
+<br>
+Arjuna
+<br>
+
+**Web Server:**
+<br>
+Prabukusuma, Abimanyu, Wisanggeni
+
 <br> 
 
 ![02](https://github.com/reynoldgithub/Jarkom-Modul-2-IT22-2023/assets/103549279/5ebb9a69-b7aa-4273-8a72-3858c531eb5a)
@@ -19,8 +40,12 @@ Topologi No.2
 Hasil dari kelompok kami
 
 
+
+
 ## Soal 2
 Buatlah website utama pada node arjuna dengan akses ke ```arjuna.yyy.com``` dengan alias ```www.arjuna.yyy.com``` dengan **yyy** merupakan kode kelompok (_www.arjuna.it22.com_).
+
+
 
 
 ## Soal 3
