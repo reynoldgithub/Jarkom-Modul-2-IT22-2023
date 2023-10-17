@@ -45,8 +45,31 @@ Hasil dari kelompok kami
 ## Soal 2
 Buatlah website utama pada node arjuna dengan akses ke ```arjuna.yyy.com``` dengan alias ```www.arjuna.yyy.com``` dengan **yyy** merupakan kode kelompok (_www.arjuna.it22.com_).
 
+### Yudhistira
+pada yudhistira melakukan konfigurasi di ```/etc/bind/named.conf.local``` yang berisikan:
+
+```
+zone “arjuna.it03.com” {
+	type master;
+	file “/etc/bind/jarkom/arjuna.it03.com
+};
+```
+kemudian membuat folder **jarkom** dan kemudian dengan command ```nano/etc/bind/arjuna.it22.com``` di terminal untuk membuat file **arjuna.it22.com**.
 
 
+<img width="522" alt="image" src="https://github.com/reynoldgithub/Jarkom-Modul-2-IT22-2023/assets/103549279/0f1a87f9-e885-4e92-b48f-fc04f6b1761f">
+
+lalu melakukan restart pada bind9 ```service bind9 restart```
+
+### Sadewa
+pada **sadewa** melakukan konfigurasi pada ```/etc/resolv.conf``` dengan mengganti ip yang  sesuai yakni ```192.244``` 
+<img width="524" alt="image" src="https://github.com/reynoldgithub/Jarkom-Modul-2-IT22-2023/assets/103549279/51797e5d-78a7-425a-b38f-b449c9c65a3c">
+
+kemudian lakukan ```ping arjuna.it22.com``` 
+
+<img width="394" alt="image" src="https://github.com/reynoldgithub/Jarkom-Modul-2-IT22-2023/assets/103549279/f9753339-9813-4431-bebf-08624f604a2a">
+
+akan memberikan ping sedimikian 
 
 ## Soal 3
 Dengan cara yang sama seperti soal nomor 2, buatlah website utama dengan akses ke abimanyu.yyy.com dan alias www.abimanyu.yyy.com.
